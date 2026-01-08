@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Service Type"/>
+    <Spinner android:id="@+id/spinnerService" android:layout_width="match_parent" android:layout_height="50dp"/>
+    <Button android:id="@+id/btnDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pick Date" android:layout_marginTop="15dp"/>
+    <TextView android:id="@+id/txtSelectedDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date: None"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Available Time" android:layout_marginTop="15dp"/>
+    <Spinner android:id="@+id/spinnerTime" android:layout_width="match_parent" android:layout_height="50dp"/>
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Confirm" android:layout_marginTop="30dp"/>
+</LinearLayout>
